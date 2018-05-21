@@ -1,0 +1,300 @@
+* {padding: 0; margin: 0;}
+bady{ background: #fff; font-family: "黑体"}
+.ui-page{background: #fff;}
+ul,ol,li {list-style:none;text-align:left;}
+img{vertical-align:top;}
+a{outline-style:none;text-decoration:none; color:#000;word-break: break-all;}
+
+.containerBox{background: #fff;}
+.ui-bar-a{background: #01062e;}
+.registerBtn{margin-top: 1em; background: #cc3333; border-bottom: 2px solid #be7900; width: 170px;height: 80px;color: #fff;line-height: 50px;text-shadow: none;font-weight: 100;}
+.ui-header .ui-btn-inner{font-size: 26px;}
+.logBtn{background: #cc3333;width: 170px;height: 80px; border-bottom: 2px solid #be7900;
+    color: #fff;margin-left: 45%;line-height: 50px;text-shadow: none;font-weight: 100;margin-top: 1em;}
+.logoBox{ background: #fff;border: none;box-shadow: none;}
+.logoBox .ui-btn-inner{width: 100%;height: 100%;background: #fff;box-shadow: none;text-shadow: none;border: none;}
+.logoBox-active{background: #fff;}
+.ui-btn-active{background: #ccc;box-shadow: none;text-shadow: none;color: #fff;border: none;}
+.contentBox{background: #e5e5e5;}
+.ui-focus,.ui-btn:focus{box-shadow: none;!important}
+.titleImg{width:195px;height: 198px;float: left; border: 1px;border-radius: 100px;}
+.introduceBox{width:500px;height: 200px;float: left;margin-left: 30px;}
+.introduceBox li{margin-top: 10px;}
+.contentBox .ui-btn-inner{font-size: 30px; color: #fff;font-weight: 200;}
+.introBox .ui-btn-inner{font-size: 36px; color: #fff;font-weight: 200;}
+.statPlay{width:180px;height: 80px;background: #6eccb4; }
+.ui-body-c .ui-link{/*font-size: 22px;*/ }
+.ui-body-c .ui-link:visited{color: #fff;}
+.ui-block-a img{width: 100%; -webkit-border-radius: 20px;border-radius: 20px;}
+.ui-block-b img{width: 100%;-webkit-border-radius: 20px; border-radius: 20px;}
+.introduceBox h2{margin-left: 38px;color: #666666;}
+.introBox{width: 99%;height:90px;border: none;background:url(../img/titleNewBg1.png) 0px 0px no-repeat; background-size: 100% 100%;}
+.ui-block-a img{width: 100%; }
+.ui-block-b img{width: 100%;}
+.giftImg img{ width: 165px; height: 165px; margin-top:20px;border: 1px; border-radius: 100px;}
+.introGiftBox .ui-body-c, .ui-overlay-c {background: #fff;width: 60%;height: 80px;float: left;padding: 0 10px;  border: 1px solid #3767f1 }
+.ui-input-text { line-height: 60px; height: 60px; border-radius: 5px;}
+.inputBoxN{width: 100%;  float: left;margin-left: 36px;}
+.gameInfo{height: 130px;border-bottom: 1px solid #a0a0a0; font-size: 26px; color: #505050;}
+.contentGift{border: none;padding: 0px 10px 10px 10px; }
+.headerGift{border: none;height: 90px;border-radius: 10px;}
+.headerGift li{height: 90px;font-size: 32px;  color: #656565; font-weight: 200;line-height: 90px; padding-left:10px}
+
+.viewBtn{width:224px; height: 72px;margin-top: 22px; line-height: 72px; display: block; position: absolute; top: 0; right: 0;
+  background: url(../img/moreBg.png) no-repeat center;   background-size:100% 100%;  color: #fff;   box-shadow: none;  border: none; font-size: 0.8em }
+.ui-bar-a a.ui-link{}
+.back{width: 100px; padding-left:20px ; height: 90px; margin: 0;float: left;border-radius: 0px 10px 10px 0px;font-size: 21px; color: #fff; position: absolute; left: 0;}
+.viewBtn .ui-btn-inner{padding: 0;border: none;font-size: 26px;}
+.ui-bar-a .ui-shadow{text-shadow: none;box-shadow: none;border: none;}
+.contentGiftBox{  background:url(../img/titleNewBgBot.png) 0 0 no-repeat; background-size: 100% 100%;}
+.contentGiftBoxBor{ margin-top: 15px;}
+.contentOrderBox{background: #fff;margin-top: 10px;border-radius: 0px 0px 10px 10px;padding: 0;}
+.contentOrderBox .giftImg{width: 192px;height: 200px;  float: left;margin-left: 20px;  margin-top: 20px;}
+.giftImg{width: 135px;height: 135px;  float: left;margin-right: 16px;border: 1px; border-radius: 100px;}
+.introOrderBox{width: 70%; height: 180px; float: left; margin-left: 20px;}
+.introOrderBox ul{padding: 0;margin: 0;}
+.introGiftBox{width:82%;float: left;}
+.contentNew{ padding-bottom: 30px }
+.contentNewBox p{padding: 0px 0px 0px 20px;color: #666666;font-size: 26px;line-height: 1.4;}
+.contentNewBox h2.contentTitle {padding-left: 20px;}
+.introGiftBox h2 {margin-left: 38px;color: #666666;display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-transform:uppercase;font-size: 30px;}
+.introGiftBox p{margin-left: 38px; width: 590px; overflow: hidden;}
+.introGiftBox .ui-link{font-weight: 200;}
+.giftGet .ui-btn-inner {font-size: 32px;color: #fff; font-weight: 100;}
+.giftGet{width: 26%;height: 79px;background: #cc3333; float: left; }
+.giftImg a{width:140px;margin-left: 40px;margin-top: 10px;display: inline-block;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;}
+.ui-grid-c a{width:140px;margin-left: 60px;margin-top: 10px;display: inline-block;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;}
+.giftImg .ui-link{font-size: 26px;}
+.introGiftBox p{color: #505050;font-size: 26px;text-transform:uppercase;}
+.footerBox{background:#e5e5e5; }
+.ui-bar-a{border: none;}
+.ui-body-c .ui-link:hover{color:#666666; }
+.contentFooterBox{background: #e5e5e5;}
+.newBottom{width:200px ;height: 60px;float: left;background: #cbcbcb;margin: 0;border-radius: 0px 0px 0px 10px;text-align: center;line-height: 60px;}
+/**/
+.ui-select .ui-btn-icon-right .ui-btn-inner, .ui-select .ui-li-has-count .ui-btn-inner{background: #fff;}
+.sidebarBox{position: absolute;top:0px;left: 0px;width: 60%;height: 100%;z-index: 10;background: #50b1a6;}
+.closeBtn{width: 172px;height: 86px;background: url(../img/close-a.png) no-repeat center;float: left;margin: 10px 0px 0px 0px;}
+.bigTitBox .closeBtn{width: 46px;height: 46px;background: url(../img/close.png) no-repeat center;float: left;margin: 10px 0px 0px 20px;}
+.formBox{margin-top: 8em;}
+.showBoxW{float: right;width: 68%;}
+.showBoxC{float: right;width: 70%;}
+.welcomeBox{float: right;color: #656565;height: 100px;line-height: 130px;width: 290px;font-size: 28px;font-weight:100;padding-right: 4em;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;background: url(../img/user.png) 295px 40px no-repeat;}
+.nameBox{text-align: center;color: #fff;}
+.formBox h2{font-size: 39px;font-weight: 100;text-shadow: none;}
+.formBox .ui-input-text{background: #50b1a6;border: none;}
+.formTitle{background: #50b1a6;border-bottom: 2px solid #fff;margin-bottom: 20px;}
+.PromptBox{color: #fff;font-size: 32px;font-weight: 100;text-shadow: none;margin-top: 10px; margin-left: 20px;}
+.switchBox{background: #50b1a6;border-radius:10px;}
+.inputBox{background: #50b1a6;border-radius:10px;}
+.partyBox{background: #50b1a6;}
+.partyBox h2{text-align: center;color: #fff;font-size: 36px;font-weight: 100;text-shadow: none;}
+.partyBox ul{width: 100%;height: 96px;padding: 0;}
+.partyBox .ui-grid-a{}
+.inputBox input{width: 100%; height: 90px;border-radius:10px;border: 2px solid #fff; background: #50b1a6;text-indent: 50px;font-size: 28px;}
+.switchBtn{width: 100%; height: 90px;border: none; background: #a0dacf;border-radius:10px;}
+.switchBtn .ui-btn-inner{color: #fff;font-size: 36px;font-weight: 100;border: none;text-shadow: none;}
+.formTowBox{margin-top: 8em;}
+.formTowBox h2{font-size: 39px;font-weight: 100;text-shadow: none;}
+.navBox{background: #50b1a6; }
+.navBox .ui-btn-inner{font-size: 36px;color: #fff;font-weight: 200;}
+.navBox ul{padding: 0;}
+.navBtn{width: 99%;height: 100px;background: #50b1a6;border: 1px solid #fff;}
+.navBtnA{background: #50b1a6 url(../img/a1.png) 20px 14px no-repeat;}
+.navBtnB{background: #50b1a6 url(../img/a2.png) 20px 32px no-repeat;}
+.navBtnC{background: #50b1a6 url(../img/a3.png) 16px 14px no-repeat;}
+.navBtnD{background: #50b1a6 url(../img/a4.png) 16px 14px no-repeat;}
+
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#fff;font-size: 28px;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#fff;font-size: 28px;
+}
+input::-moz-placeholder {  /* Mozilla Firefox 4 to 19+ */
+    color:#fff;font-size: 28px;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#fff;font-size: 28px;
+}
+.twitterBtn{height: 96px;background: url(../img/login_t.png) no-repeat center;}
+.facebookBtn{height: 96px;background: url(../img/login_f.png) no-repeat center;}
+.afterEntryBox{margin-top:8em;background: #50b1a6;}
+.afterEntryBox h2{font-size: 39px;  font-weight: 100;  text-shadow: none;}
+/**/
+.bigBox{background: #fff;}
+.bigBox legend{color: #656565;font-size: 32px;text-shadow: none;font-weight: bold;float: left;height: 60px; line-height: 98px;}
+.bigBox .ui-radio{width:275px;margin-left: 20px; }
+.bigBox .ui-select{margin-left: 20px;width:275px;}
+.bigBox .ui-body-c{border: 1px solid #656565;}
+.bigBox .ui-btn-inner{border: 1px solid #656565;height: 78px;line-height: 78px;}
+.bigBox .ui-controlgroup-controls{float: right;height: 90px;  line-height: 60px;}
+.bigBox .maleL{width: 275px;height: 100px;background: #fff;border-radius: 10px;}
+.bigBox .maleR{width: 275px;height: 100px;margin-left: 20px;border-radius: 10px;background: #fff;}
+.bigBox .ui-btn-active{background: #6eccb4;color: #fff;}
+.bigBox .ui-btn-text{font-size: 30px;color: #747272;  font-weight: 100;}
+.ui-controlgroup-horizontal .ui-btn{border-right-width:1px;border-radius: 10px;}
+.bigTitBox{border-bottom: 1px solid #656565;height:66px;background: #fff;text-align: center;line-height: 66px; font-size: 38px;font-weight: bold;}
+.bigTitBox .backOff{width: 28px;height:46px;float: left;background: url(../img/back.png) no-repeat center; margin-top: 10px; }
+.bigBox form{background: #fff;}
+.bigBox label{color: #656565;font-size: 32px;text-shadow: none;font-weight: bold;float: left;margin-top: 10px;height: 80px; line-height: 110px; }
+.bigBox .ui-link{font-size: 32px;}
+.bigBox .ui-body-c, .ui-overlay-c{background: #fff;  width: 60%;  height: 100px;  float: right;}
+.bigBox input{width: 60%;}
+.inBox{width: 100%;height: 150px;  float: left;}
+.languageSt .ui-select{width: 62%; margin-left: 348px; display: block;}
+.languageSt .ui-btn-inner{height: 60px;}
+.languageSt .ui-btn-text{height: 60px; line-height: 60px; text-align: left; padding-left: 60px;color: #747272;  font-weight: 100;}
+.languageSt label{height: 84px; line-height: 84px;}
+.subMit{width: 99%; height: 100px;  background: #50b1a6;  border: 1px solid #fff;}
+.subMit .ui-btn-text{color: #fff;font-size: 36px;  font-weight: 300;}
+
+.contentNew {margin: 0px 12px 10px 12px; background:url(../img/titleNewBgBot.png) 0 0 no-repeat; background-size: 100% 100%;}
+.orderBottom{width: 97%;height:60px ;background: #cbcbcb;}
+.orderBottom .dateBox{float: left;height:60px ;line-height: 60px;color: #666666;font-size: 28px;text-shadow: none;}
+.orderBottom .timeBox{float: left;height:60px ;line-height: 60px;color: #666666;font-size: 28px;text-shadow: none;margin-left: 5%;}
+.introOrderBox li{margin-top: 10px;}
+.introOrderBox h2{font-size: 30px;margin-bottom: 10px;}
+.introOrderBox .moneyT a{font-size: 30px;}
+
+.inputBoxN .inputClor{ border: 1px solid #000}
+
+#tip_box{display:none;width:100%; height:120px; line-height:120px; color:#ffffff; font-size:32px; font-weight:bolder;  position:absolute; left:0; top:0;opacity:0.9;filter:alpha(opacity:90);z-index: 10000}
+#tip_box.error{background:#c50606;}
+#tip_box.success{background:#0d53d6;}
+#tip_box.loading{background:#0b0b0b;}
+#tip_box a{ display:block; width:43px; height:52px; background:url(../img/close2.png) 0 0 no-repeat; float:right; position:absolute; right:20px; top:30px; cursor:pointer;}
+#tip_box span{ color: #FFFFFF; display:block; padding:0 15px;  position:absolute; left:30px; top:0;}
+.clearfix::before, .clearfix::after {
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix {
+}
+.copyRightPo{ position: relative;}
+.height{ height: 125px; }
+.Copyright{color: #838383; display: block; position: absolute; left: 25px;top:95px; font-weight: normal; text-shadow: none;z-index: 9; }
+
+.PokemonMegaWrap{ display: block;     padding: 50px 15px 10px; height: 260px; background:url(../img/starabg.jpg) 0 0 no-repeat; background-size:cover; position: relative; }
+.gameLogo{  width: 195px; height: 198px; float: left;  border: 1px;  border-radius: 100px; margin-right: 20px;}
+.gameLogo img{ width: 75%;  height: 75%;  margin-left: 10%;}
+.PokemonMegaCont{ float: right; width: 75%}
+.PokemonMegaBoxL{display: inline-block; float: left; height: 160px;}
+.PokemonMegaBoxL h2{ color: #fff;    font-size: 30px; }
+.PokemonMegaBoxL span{ color: #929292; display: block; font-weight: bolder; font-size: 30px; margin-top: 5px;}
+.PokemonMegaBoxL span a{ color: #929292;}
+.playBtn { float: right;}
+.playBtn .ui-btn-inner { width:200px;  height: 68px;  font-size:38px;line-height: 68px;  display:block ;  background: #00beca; border-bottom:2px solid #00746b;   text-align: center;  cursor: pointer;  border-radius: 10px;}
+.privacyT{  padding: 15px 15px 15px 0; margin-left: -15px; float: right;}
+.privacyT a{ display: inline-block; float:left; border-right: 1px solid #666;  padding-right: 15px; margin-left: 15px; }
+
+span.last { color: #2489ce; font-weight: 700; font-size:22px;}
+
+.giftCodeTit{ color: #fff; background:url(../img/dhmTcon.png) 0 0 no-repeat; background-size: 100% 100%; /* Firefox */ position: relative;  width: 100%; height: 120px; line-height:120px;font-size: 36px; font-weight: 200;text-align: center;}
+.NewsCodeTit {color: #fff; background:url(../img/titleNewBg.png) 0 0 no-repeat;background-size: 100% 100%; position: relative;    margin: 0 1%; height: 120px; line-height:120px;font-size: 36px; font-weight: 200;text-align: center; }
+.newConTit, .giftConTit{color: #fff; background:url(../img/newsConTop.png) 0 0 no-repeat; background-size: 100% 100%;width: 100%;  height: 90px; line-height:90px;font-size: 36px; font-weight: 200;text-align: center; }
+.privacyT a{color: #fff;font-size: 22px;}
+.newsImg{float: left;   height: 66px; }
+.newsImg img{ padding-top: 18px;  /*width: 90%;  height: 150%; */ margin-left: 4%;}
+.newsTitleW{ float: left; padding-top: 2%; padding-left: 6%; padding-bottom: 3%; width: 91%;  overflow: hidden;margin-left: 1%; border-bottom: 1px solid #9bb6d4; background: url(../img/newsBg_01.png) no-repeat 0 7px;}
+.newsTitleW a{ display:inline-block; float: left; width: 645px;  font-size: 30px; color: #00021b;overflow: hidden;  text-overflow: ellipsis; overflow: hidden;  text-transform: uppercase;height: 36px; line-height: 36px;  }
+.newsTitleW span{ display:inline-block; float:right;font-size: 26px; color: #00021b; margin-right: 22px;}
+
+.newsTitleMore{ float: left; margin-top: 2%; width: 79%;  overflow: hidden;margin-left: 17%;}
+.newsTitleMore a{ display:block;   font-size: 30px; color: #fff;overflow: hidden;  text-overflow: ellipsis; overflow: hidden;  text-transform: uppercase; line-height: 36px;  }
+.newsTitleMore span{ display:inline-block; float: left;font-size: 26px; color: #fff; margin-right: 22px; margin-top: 2%}
+
+
+.ui-grid h2{ line-height: 46px; color: #222222;font-weight: bolder;
+    font-size: 32px;
+    }
+.gameName{position: absolute; left: 70px; top: 195px;}
+.gameName img{ width: 130%; height: 120%}
+.hot a,.hot span  {color: #cc3333;}
+.read a, .read span{}
+
+
+
+
+
+
+
+
+input::-webkit-input-placeholder {
+    color: #002b50;
+    -webkit-transition: color.5s;
+}
+input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
+    color: #002b50;
+    -webkit-transition: color.5s;
+}
+
+
+
+.contentNewsBox{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
+    /*border-bottom: 3px solid #f9a68a;*/
+}
+.contentTitle{
+    padding: 10px 0px 0px 0px;
+    background:url(../img/newsBgTit.png) 0 0 no-repeat; background-size:cover; ;
+    height: 160px;
+    margin: 2% 1% 0;
+}
+.contentTitle a{
+    color: #fff;
+}
+.contentTitle span{
+    color: #fff;
+}
+.newsContent{
+    width: 100%;
+    height: auto;
+    float: left;
+
+    padding: 10px 0px 0px 0px;
+    border-radius: 15px 15px 15px 15px;
+    /* border-bottom: 3px solid #f9a68a;*/
+}
+.newsContent p{
+    padding: 0px 0px 0px 20px;
+    color: #00021b;
+    font-size: 26px;
+}
+.newsContent p img{ width: 98%; height:100%; margin: 0 auto;}
+
+.contentNewBoxBor{  margin-top: 15px;}
+
+
+.ui-header{ background: #fff;}
+
+
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #91bdff; opacity:1; 
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #91bdff;opacity:1;
+}
+
+input:-ms-input-placeholder{
+    color: #91bdff;opacity:1;
+}
+
+input::-webkit-input-placeholder{
+    color: #91bdff;opacity:1;
+}

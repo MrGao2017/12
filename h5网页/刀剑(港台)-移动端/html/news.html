@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Pokemon Mega - Best Pokemon Game to Play Online - Go, Pikachu!</title>
+    <meta name="msvalidate.01" content="247B4F74767E8FC0934FD5E7A8538DF0"/>
+    <meta name="keywords" content="Pokemon Mega,mega pokemon,best mega pokemon,Pokemon game,Pokemon browser game,game pokemon mega,play pokemon game,game pikachu"/>
+    <meta name="description" content="Pokemon Mega is a turn-based browser game highly faithful to anime Pokemon on PC & Mobile platform. In this game, you are Pokemon trainer to capture, train and upgrade all mega Pokemon(XY&Z). Pokemon can be evolved and will acquire the new skills and higher battle power!"/>
+    <meta name="google-site-verification" content="nV5gk2P2mOkp6tDFRIxu8IQPYClqM2NDTangUUT64K4"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Pokemon Mega">
+    <meta name="apple-mobile-web-app-title" content="Pokemon Mega">
+    <meta property="og:image" content="http://sitesource.instantfuns.com/style/official/single_game/tpm/lang_common/img/icon-ios-512.png?20170909" />
+
+    <link rel="dns-prefetch" href="http://user.instantfuns.com">
+    <link rel="dns-prefetch" href="http://sitesource.instantfuns.com">
+    <link rel="dns-prefetch" href="http://pay.instantfuns.com">
+    <link rel="icon" sizes="512x512" href="http://sitesource.instantfuns.com/style/official/single_game/tpm/lang_common/img/icon-android-512.png?20170909">
+    <link rel="apple-touch-icon" sizes="512x512" href="http://sitesource.instantfuns.com/style/official/single_game/tpm/lang_common/img/icon-ios-512.png?20170909">
+
+    <!--<link rel="stylesheet" href="http://sitesource.instantfuns.com/style/official/jquery/jquery.mobile-1.3.2.min.css?20170909">-->
+    <link rel="stylesheet" href="../css/jquery.mobile-1.3.2.min.css">
+    <link type="text/css" rel="stylesheet" href="../css/common.css" />
+
+    <script src="http://sitesource.instantfuns.com/js/official/jquery/jquery-1.8.3.min.js?20170909"></script>
+    <script src="http://sitesource.instantfuns.com/js/official/jquery/jquery.mobile-1.3.2.min.js?20170909"></script>
+    <script src="http://sitesource.instantfuns.com/js/official/single_game/tpm/common.js?20170909"></script>
+</head>
+<body>
+<div data-role="page"  id="pageone">
+    <div data-role="header">
+        <span class="Copyright">Copyright All rights reserved to Miracle World Ltd. Inc Co.Limited</span>
+        <div data-role="navbar" class="ui-header ui-bar-a copyRightPo height" role="banner">
+            <a href="/" data-role="none"  class="logoBox"><img src="../img/logo.png"></a>
+            <div class="showBoxW" style="">
+                <a href="javascript:void(0);" data-role="button" data-inline="true" class="logBtn">Log in</a>
+                <a href="javascript:void(0);" data-role="button" data-inline="true" class="registerBtn">Register</a>
+            </div>
+            <div class="showBoxC" style="display: none;">
+                <span class="welcomeBox" title="">Welcome! </span>
+            </div>
+        </div>
+    </div>
+
+    <!--new-->
+    <h3 class="newConTit">新闻
+        <a class="back">返回</a>
+    </h3>
+    <div data-role="content" class="contentNew contentNewBoxBor">
+        <!--change  新闻列表结构改为如下了：-->
+        <div data-role="content" class="contentNewBox">
+            <div class="newsTitleW clearfix">
+                <a>游戏新区开放送好礼</a>
+                <span>10/19/2017</span>
+            </div>
+        </div>
+        <div data-role="content" class="contentNewBox">
+            <div class="newsTitleW clearfix">
+                <a>邀请好友，获得绝版稀有装扮</a>
+                <span>10/19/2017</span>
+            </div>
+        </div>
+        <div data-role="content" class="contentNewBox">
+            <div class="newsTitleW clearfix">
+                <a>2018年5月15日，运营公告——礼物兑换开放</a>
+                <span>10/19/2017</span>
+            </div>
+        </div>
+        <div data-role="content" class="contentNewBox">
+            <div class="newsTitleW clearfix">
+                <a>邀请好友，获得绝版稀有装扮</a>
+                <span>10/19/2017</span>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</div>
+<script type="text/javascript" src="http://sitesource.instantfuns.com/js/official/clipboard/clipboard.min.js?20170909"></script>
+<script type="text/javascript" src="http://sitesource.instantfuns.com/js/official/single_game/tpm/gift.js?20170909"></script>
+</body>
+<div id="dialog-box">
+    <div class="content"></div>
+</div>
+<div class="centerBoxBackgroundImage footerboxBackgroundImage hiddenBox"></div>
+
+<script type="text/javascript" language="javascript">
+    var loginStatus = "nologin";
+    var accountTip = new Object();
+    accountTip.logOut = "Log Out....";
+    accountTip.logOutError = "Sign Out Error, Try Again";
+    accountTip.loginSuccess = "Login Successfully";
+    accountTip.needLoginToAccess = "You must login to receive rewards!";
+
+    var registerTip = new Object();
+    registerTip.unameCue = "User name between the 6-16 characters.";
+    registerTip.emailCue = "Please enter a valid Email.";
+    registerTip.passwordCue = "At least 6 numbers and characters!";
+    registerTip.confirmPasswordCue = "Please enter your password again.";
+
+    registerTip.unameNull = "User name between the 6-16 characters.";
+    registerTip.emailNull = "Please enter a valid Email.";
+    registerTip.passwordNull = "6 to 20 letters, numbers, and special characters!";
+    registerTip.confirmPasswordNull = "Please enter your password again!";
+
+    registerTip.checkUname = "Verifying User Name ......";
+    registerTip.checkEmail = "Verifying Email ......";
+    registerTip.loading = "Loading.....";
+    registerTip.wrongPassUsername = "Wrong User Name or Password";
+
+    registerTip.unameError = "User Name Already Exists!";
+    registerTip.emailError = "Email already in use Or Error!";
+    registerTip.passwordError = "6 to 20 letters, numbers, and special characters!";
+    registerTip.confirmPasswordError = "The Passwords do not match!";
+    registerTip.registerSuccess = "Register Successfully";
+
+    var changePassword = new Object();
+    changePassword.passwordFormatError = "Please make sure your new password 6 to 16 letters, numbers, and special characters!";
+    changePassword.passwordNotEqual = "The password you input is not the same!";
+    changePassword.passwordEqual = "New password and Old password is the same!";
+    changePassword.needReLogin = "You'll automatically log out!";
+
+    var pageArgu = new Object();
+    pageArgu.noSelectServer = "Please select a server.";
+    pageArgu.copySuccess = "Gift code copied successfully!";
+    pageArgu.noGiftCode = "Gift code is no longer available.";
+    pageArgu.makeGiftCodeFail = "Gift code is no longer available.";
+    pageArgu.zclipSWFPath = "http://sitesource.instantfuns.com/plugins/zclip/ZeroClipboard.swf?20170909";
+    var loginStatus = "nologin";
+    var needLogin = new Object();
+    needLogin.needLoginToAccess = "You must login to receive rewards!";
+    $('.center_aninmatbg').animate({
+        opacity: '1'
+    }, 3000);
+
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-106315172-1', 'auto');
+    ga('send', 'pageview');
+
+</script></html>
