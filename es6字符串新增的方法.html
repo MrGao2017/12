@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+</head>
+<body>
+    <script>
+        // includes()  是否已字符串开头 返回的布尔值
+        let s = 'Hello world!';
+        s.startsWith('Hello') // true
+
+        // endsWith()  是否已字符串结尾 返回的布尔值
+        s.endsWith('!') // true
+
+        // includes()  是否包含某个字符串 返回的布尔值
+        s.includes('o') // true
+
+        // repeat()  表示重复多少次。如果参数是正小数，会取整。
+        // 如果参数是负数，会报错。
+        // 如果参数是0，会得到空串。
+        // 如果参数是字符串、布尔型或其他类型，会先换算成整数。
+                
+        // padStart()，padEnd()    用于在开头补全字符和在末尾补全字符，padStart和padEnd一共接受两个参数，第一个参数用来指定字符串的最小长度，第二个参数是用来补全的字符串。
+        'abc'.padStart(10, '0123456789')
+        // '0123456abc'
+
+        'abc'.padEnd(10, '0123456789')
+        // 'abc0123456'
+
+   </script>
+</body>
+</html>
