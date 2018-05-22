@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <script>
+        // Array.from()   将类数组转换为数组  
+        // let divs = document.getElementsByTagName("div");
+        // let arr = Array.from(divs)
+        // arr.forEach((elem, index, array)=>{
+        //     console.log(elem, index, array)
+        // })
+
+        //Array.of()可将传入的单个参数转化为数组
+        // let arr2 = Array.of(1,2,3)
+        // arr2.push(4)
+        // console.log(arr2);
+        
+        // includes(elem)  这个数组是否包含某个元素 返回的是个布尔值  有返回true
+        // let arr3 = [1,2,3,4]
+        // console.log(arr3.includes(6))
+
+
+        //entries() keys() values()   这三个函数都返回一个数组的迭代器对象，可以用object.next().value去访问，也可以用for…of去遍历；
+
+        // let arr = [1, 2, 3, 4, 5];
+        //  let s = arr.entries()
+        // // //  console.log(s.next().value)
+
+        // for (const item of s) {
+        //     console.log(item)   //输出值为key value
+        // }
+
+        // let k = arr.keys()
+        // // console.log(k.next().value)
+        // for (const item of k) {
+        //     console.log(item)   //输出值为key
+        // }
+
+        // let v = arr.values()
+        // // console.log(v.next().value)
+        // for (const item of v) {
+        //     console.log(item)   //输出值为value
+        // }
+
+
+        // fill(value, start, end)   用value去覆盖从start到end之间的所有元素，包含start，不包含end，end为可选参数，不指明end的值表示从start开始到数组结尾处； 对原数组进行操作
+        // var arr = [1, 2, 3, 4];
+        // console.log(arr.fill(5, 1, 3)); //[1, 5, 5, 4]
+        // console.log(arr.fill(4,0));
+        // console.log(arr)
+
+
+        // find(callback, context)   find的参数为一个回调函数和一个执行上下文环境（可选参数），指向callback， 返回值为找到的第一个满足回调函数条件的值，如果没找到返回undefined；
+        // let arr = [1,2,3,4]
+        // let s = arr.find((elem, index, array)=>{
+        //     // console.log(elem, index, array)
+        //     return elem>1
+        // })
+        // console.log(s)
+
+
+        // findIndex(callback, context)  该函数与find函数的调用方法相同，返回满足回调函数条件的第一个值的下标，如果没找到返回-1
+        // var arr = [1, 2, 3, 4];
+        // var s = arr.findIndex(function(elem, index, array){
+        //     // console.log(elem, index, array);
+        //     return elem > 1;
+        // });
+        // console.log(s); //1
+
+        // copyWithin(target, start, end)
+        // 该函数有三个参数，意思是复制start到end之间的所有元素（不包含end），去覆盖由target下标开始处到所复制的元素的长度之间的所有元素。
+        // start和end为可选参数，如果只有target，意思是用数组的第一个元素覆盖target处的元素；
+        // 有两个参数意思是，复制start到数组结尾处的所有元素；
+        // 另外start和end可为负值，为负值则最后一个元素位置为-1，其他为-2， -3类推。
+        var arr1 = [1, 2, 3, 4, 5];
+        console.log(arr1.copyWithin(0, 1, 4)); //[2, 3, 4, 4, 5]
+
+
+   </script>
+</body>
+</html>
